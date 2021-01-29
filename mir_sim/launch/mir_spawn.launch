@@ -1,0 +1,8 @@
+<launch>    
+    <include file="$(find match_gazebo)/launch/world_maze.launch">
+        <arg name="gui" value="true"/>
+    </include>
+
+    <include file="$(find mir_gazebo)/launch/mir.launch"/>
+      
+</launch>

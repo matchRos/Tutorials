@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find mir_navigation)/launch/mapping_rviz.launch" />
+
+    <include file="$(find tutorial_mir)/launch/mir_ps4_drive.launch"/>
+</launch>
