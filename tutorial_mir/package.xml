@@ -50,11 +50,11 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>gazebo_ros</build_depend>
-  <build_depend>mir_gazebo</build_depend>
+  <build_depend>mir_launch_sim</build_depend>
   <build_export_depend>gazebo_ros</build_export_depend>
-  <build_export_depend>mir_gazebo</build_export_depend>
+  <build_export_depend>mir_launch_sim</build_export_depend>
   <exec_depend>gazebo_ros</exec_depend>
-  <exec_depend>mir_gazebo</exec_depend>
+  <exec_depend>mir_launch_sim</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

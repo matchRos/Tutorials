@@ -1,9 +1,9 @@
 <launch>
-    <include file="$(find mir_gazebo)/launch/mir_named.launch">
+    <include file="$(find mir_launch_sim)/launch/mir_named.launch">
         <arg name="robot_name" value="mir1"/>
     </include>
 
-    <include file="$(find mir_gazebo)/launch/mir_named.launch">
+    <include file="$(find mir_launch_sim)/launch/mir_named.launch">
         <arg name="robot_name" value="mir2"/>
     </include>
 </launch>

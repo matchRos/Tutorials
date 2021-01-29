@@ -3,6 +3,6 @@
         <arg name="gui" value="true"/>
     </include>
 
-    <include file="$(find mir_gazebo)/launch/mir.launch"/>
+    <include file="$(find mir_launch_sim)/launch/mir.launch"/>
       
 </launch>

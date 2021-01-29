@@ -9,7 +9,7 @@ project(tutorial_mir)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
-  mir_gazebo
+  mir_launch_sim
 )
 
 ## System dependencies are found with CMake's conventions
@@ -104,7 +104,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES tutorial_mir
-#  CATKIN_DEPENDS gazebo_ros mir_gazebo
+#  CATKIN_DEPENDS gazebo_ros mir_launch_sim
 #  DEPENDS system_lib
 )
 
