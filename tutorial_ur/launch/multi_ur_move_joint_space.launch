@@ -1,0 +1,7 @@
+<launch>    
+    
+    <!-- start controller for manipulating and displaying joint states -->
+   <include file="$(find tutorial_ur)/launch/ur_move_joint_space.launch" ns="ur1"/>
+   <include file="$(find tutorial_ur)/launch/ur_move_joint_space.launch" ns="ur2"/>
+    
+</launch>

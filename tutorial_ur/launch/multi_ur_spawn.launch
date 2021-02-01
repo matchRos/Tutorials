@@ -1,0 +1,19 @@
+<launch>
+    <include file="$(find ur_launch_sim)/launch/ur.launch" ns="ur1">
+        <arg name="robot_x" value="2.0"/>
+        <arg name="robot_y" value="0.0"/>
+        <arg name="robot_z" value="0.1"/>
+        <arg name="robot_yaw" value="0.0"/>
+        <arg name="tf_prefix"    value="ur1" />
+        <arg name="robot_name" value="ur1"/>
+    </include>
+
+    <include file="$(find ur_launch_sim)/launch/ur.launch" ns="ur2">
+        <arg name="robot_x" value="-2.0"/>
+        <arg name="robot_y" value="0.0"/>
+        <arg name="robot_z" value="0.1"/>
+        <arg name="robot_yaw" value="0.0"/>
+        <arg name="tf_prefix"    value="ur2" />
+        <arg name="robot_name" value="ur2"/>
+    </include>
+</launch>
