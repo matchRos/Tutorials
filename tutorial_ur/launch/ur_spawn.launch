@@ -1,8 +1,7 @@
 <launch>    
-    <include file="$(find match_gazebo)/launch/world_maze.launch">
-        <arg name="gui" value="true"/>
-    </include>
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch"/>    
 
-    <include file="$(find ur_gazebo)/launch/mir.launch"/>
+    <include file="$(find ur_launch_sim)/launch/ur.launch"/>
       
 </launch>

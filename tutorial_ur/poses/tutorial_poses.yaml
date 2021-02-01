@@ -1,0 +1,21 @@
+pose1:
+  elbow_joint: 1.5838429805006795
+  shoulder_lift_joint: -1.5718494267425926
+  shoulder_pan_joint: 0.00017599416079239205
+  wrist_1_joint: -1.8402912609349897e-05
+  wrist_2_joint: -37.699115315798316
+  wrist_3_joint: 18.849548893881362
+pose2:
+  elbow_joint: 1.5718597663938816
+  shoulder_lift_joint: -1.5702429280454444
+  shoulder_pan_joint: -2.051960317036375
+  wrist_1_joint: -1.8243209991108955e-05
+  wrist_2_joint: -37.6991152366343
+  wrist_3_joint: 18.849548913228954
+pose3:
+  elbow_joint: 0.7484430670087754
+  shoulder_lift_joint: -1.570040526159449
+  shoulder_pan_joint: -2.6354062749569813
+  wrist_1_joint: -9.61579190361661e-06
+  wrist_2_joint: -37.699114793695784
+  wrist_3_joint: 18.849551974326317

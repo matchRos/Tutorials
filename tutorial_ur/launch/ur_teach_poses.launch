@@ -1,0 +1,12 @@
+<launch>
+    
+    <!-- start controller for manipulating and displaying joint states -->
+    <include file="$(find tutorial_ur)/launch/ur_move_joint_space.launch"/>
+
+    <!-- Activate a node for teaching poses -->
+    <node name="pose_teacher" type="pose_teacher_node.py" pkg="robot_teacher" output="screen">
+        <remap from="~joint_names" to="position_joint_controller/joints"/>
+        <param name="max_joint_velocity" value="1.0"/>
+        <param name="file_name" value="$(find tutorial_ur)/poses/my_poses.yaml"/>
+    </node>
+</launch>
