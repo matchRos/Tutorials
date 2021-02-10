@@ -1,0 +1,7 @@
+<launch>
+    <node name="teleoperate" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py">
+        <remap from="cmd_vel" to="mobile_base_controller/cmd_vel"/>
+        <param name="speed" value="1.0"/>
+        <param name="turn" value="1.0"/>
+    </node> 
+</launch>
