@@ -1,0 +1,9 @@
+position_joint_controller:
+  type: position_controllers/JointTrajectoryController
+  joints: 
+  - ur/shoulder_pan_joint
+  - ur/shoulder_lift_joint
+  - ur/elbow_joint
+  - ur/wrist_1_joint
+  - ur/wrist_2_joint
+  - ur/wrist_3_joint
